@@ -11,7 +11,15 @@ body {
     border: none;
     padding: 15px 25px 13px 30px;
 }
-
+.btn-contact{
+    background: white;
+    border-radius: 5px;
+    color: #fd6e0a;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #fd6e0a;
+    padding: 15px 25px 13px 30px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -45,9 +53,9 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url('./images/header_bg.png');
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -68,18 +76,16 @@ nav a {
     font-weight: 700;
     color: #181818;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .banner-container {
     max-width: 500px;
-    align-items: center;
 }
 
 /* main section start  */
 main {
     max-width: 1140px;
-    margin: ;
 }
 
 main section {
