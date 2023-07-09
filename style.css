@@ -155,6 +155,7 @@ main section {
     color: var(--dark-03, #757575);
     font-size: 20px;
     font-weight: 600;
+
 }
 
 .resume-item-description {
@@ -163,3 +164,40 @@ main section {
     font-weight: 400;
     line-height: 28px;
 }
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer area style  */
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #fae7da;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.social-links a{
+    margin-right: 25px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: var(--dark-03, #757575);
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    border: 0;
+    width: 100%;
+}
+
+
+
